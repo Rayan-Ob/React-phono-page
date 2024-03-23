@@ -1,0 +1,31 @@
+
+/* start carousel section */
+#carouselExampleCaptions {
+  margin: 0;
+  margin-top: 60px;
+}
+
+
+
+.ro-position {
+  position: relative;
+
+}
+
+.ro-right-cap {
+  position: absolute;
+  display: inline-block;
+  z-index: 5;
+  width: 40%;
+  left: 50%;
+  top: 20%;
+}
+
+.ro-right-cap2 {
+  position: absolute;
+  top: 15%;
+  z-index: 5;
+  width: 40%;
+  left: 5%;
+  color: #252525;
+}
