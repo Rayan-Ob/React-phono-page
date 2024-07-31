@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import About from './Components/AboutPage/About';
 import Courses from './Components/CoursesPage/Courses';
@@ -18,13 +19,16 @@ function App() {
        {/* carousel */}
 
        <Navbar/>
-       <Routes>
+       <BrowserRouter>
 
+       <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/courses" element={<Courses/>}></Route>
       <Route path='/about' element={<About/>}></Route>
-
        </Routes>
+       </BrowserRouter>
+      
+       
       
       <Footer/>
 
